@@ -1,0 +1,92 @@
+body {
+    line-height: 1;
+    background-color: #081b29;
+}
+
+@font-face {
+    font-family: Lemon-Regular;
+    src: url('FONTS/Lemon-Regular.ttf');
+}
+
+ul.topnav li.first-header {
+    float: left;
+    color: #ededed;
+    font-size: 50px;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+ul.topnav li.different {
+    float: right;
+    list-style: none;
+}
+
+ul.topnav li.different a {
+    color: #ededed;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 14px;
+    min-height: 16px;
+}
+
+ul.topnav li.different a:hover {
+    color: #00abf0;
+}
+
+div.content {
+    color: #ededed;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-top: 10%;
+}
+
+h2.special {
+    color: #00abf0;
+}
+
+div.btn {
+    background: transparent;
+    padding-top: 40px;
+}
+
+button.btn1 {
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 15px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ededed;
+    margin-right: 50px;
+}
+button.btn2 {
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 15px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ededed;
+}
+
+button.btn1:hover {
+    background-color: #00abf0;
+}
+
+button.btn2:hover {
+    background-color: #00abf0;
+}
+
+button.btn1 a{
+    text-decoration: none;
+}
+
+button.btn2 a {
+    text-decoration: none;
+}
