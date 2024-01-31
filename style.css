@@ -90,3 +90,9 @@ button.btn1 a{
 button.btn2 a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 680px) {
+    ul.topnav li.different {
+        display: none;
+    }
+}
