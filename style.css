@@ -19,6 +19,7 @@ ul.topnav li.first-header {
 ul.topnav li.different {
     float: right;
     list-style: none;
+    cursor:grab
 }
 
 ul.topnav li.different a {
@@ -62,6 +63,7 @@ button.btn1 {
     font-size: 20px;
     color: #ededed;
     margin-right: 50px;
+    cursor:grab;
 }
 button.btn2 {
     background: transparent;
@@ -73,6 +75,7 @@ button.btn2 {
     font-weight: bold;
     font-size: 20px;
     color: #ededed;
+    cursor:grab
 }
 
 button.btn1:hover {
