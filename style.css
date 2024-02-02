@@ -54,7 +54,7 @@ div.btn {
 
 button.btn1 {
     background: transparent;
-    border-radius: 5px;
+    border-radius: 30px;
     border: 2px solid black;
     padding: 15px;
     overflow: hidden;
@@ -67,7 +67,7 @@ button.btn1 {
 }
 button.btn2 {
     background: transparent;
-    border-radius: 5px;
+    border-radius: 30px;
     border: 2px solid black;
     padding: 15px;
     overflow: hidden;
@@ -88,10 +88,12 @@ button.btn2:hover {
 
 button.btn1 a{
     text-decoration: none;
+    color: #ededed;
 }
 
 button.btn2 a {
     text-decoration: none;
+    color: #ededed;
 }
 
 @media screen and (max-width: 680px) {
