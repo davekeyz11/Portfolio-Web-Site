@@ -75,7 +75,6 @@ button.btn2 {
     font-weight: bold;
     font-size: 20px;
     color: #ededed;
-    cursor:grab
 }
 
 button.btn1:hover {
@@ -96,8 +95,14 @@ button.btn2 a {
     color: #ededed;
 }
 
+#dropdownIcon {
+    display: none;
+}
 @media screen and (max-width: 680px) {
-    ul.topnav li.different {
+    ul.topnav li:not(:nth-child(1)){
         display: none;
+    }
+    #dropdownIcon {
+        display: block;
     }
 }
