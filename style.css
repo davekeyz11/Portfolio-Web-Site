@@ -33,6 +33,7 @@ ul.topnav li.different a {
 
 ul.topnav li.different a:hover {
     color: #00abf0;
+    transition-duration: 1s;
 }
 
 div.content {
@@ -63,7 +64,6 @@ button.btn1 {
     font-size: 20px;
     color: #ededed;
     margin-right: 50px;
-    cursor:grab;
 }
 button.btn2 {
     background: transparent;
@@ -75,14 +75,17 @@ button.btn2 {
     font-weight: bold;
     font-size: 20px;
     color: #ededed;
+    cursor: pointer;
 }
 
 button.btn1:hover {
     background-color: #00abf0;
+    transition-duration: 1s;
 }
 
 button.btn2:hover {
     background-color: #00abf0;
+    transition-duration: 1s;
 }
 
 button.btn1 a{
@@ -106,3 +109,4 @@ button.btn2 a {
         display: block;
     }
 }
+
