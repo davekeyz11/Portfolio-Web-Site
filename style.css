@@ -33,7 +33,7 @@ ul.topnav li.different a {
 
 ul.topnav li.different a:hover {
     color: #00abf0;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
 div.content {
@@ -80,12 +80,12 @@ button.btn2 {
 
 button.btn1:hover {
     background-color: #00abf0;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
 button.btn2:hover {
     background-color: #00abf0;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
 button.btn1 a{
