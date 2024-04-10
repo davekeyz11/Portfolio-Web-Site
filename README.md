@@ -49,4 +49,3 @@ Once the site is opened in your web browser, you can navigate through the differ
 ## Contributing
 
 If you'd like to contribute to David's Portfolio Site, feel free to fork this repository and submit a pull request with your changes. All contributions are welcome!
-
